@@ -8,12 +8,12 @@ ODEE: A One-Stage Object Detection Framework for Overlapping and Nested Event Ex
 
 ODEE论文全称为：ODEE: A One-Stage Object Detection Framework for Overlapping and Nested Event Extraction，github链接为[NingJinzhong/ODEE (github.com)](https://github.com/NingJinzhong/ODEE)
 
-ODRTE的githua链接：[NingJinzhong/ODRTE (github.com)](https://github.com/NingJinzhong/ODRTE)
+ODRTE的github链接：[NingJinzhong/ODRTE (github.com)](https://github.com/NingJinzhong/ODRTE)
 
 oneEE论文：https://arxiv.org/pdf/2209.02693.pdf  ，github链接为https://github.com/Cao-Hu/OneEE
 
 ## 2. 代码复现过程
-
+- 使用的bert-base-chinese在oneEE的github中提及了。
 - 数据预处理过程参考oneEE代码的流程，在mydata_loader.py文件中
 - 模型构建和解码部分参考ODRTE代码的流程，其中模型搭建在eemodel.py,结果解码在utils.py中。
 
